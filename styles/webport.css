@@ -95,6 +95,10 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 
 /* About section */
 .about{
@@ -126,7 +130,32 @@ main{
     text-align: center;
 }
 
+/* What I do */
 
 #i-do-des{
     padding: 30px 150px;
+}
+
+.skills-cont{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+}
+
+.skill-des{
+    color: #757575;
+}
+
+/* resume section */
+
+.resume-col-titl{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }

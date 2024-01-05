@@ -6,6 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .spname{
@@ -27,6 +28,7 @@ nav li{
     list-style: none;
     margin-right: 50px;
     text-decoration: none;
+    
 }
 
 nav a{
@@ -42,4 +44,17 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+.header{
+    background-color:#f3fbff ;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .main-pic{
+    width: 500px;
 }

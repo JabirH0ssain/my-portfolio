@@ -48,13 +48,40 @@ nav a{
 
 .header{
     background-color:#f3fbff ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 10px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-cont{
+    max-width: 500;
 }
 .banner .main-pic{
     width: 500px;
 }
+
+.banner-greet{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+    
+}
+
+.banner-titl{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-des{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+

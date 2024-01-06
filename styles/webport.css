@@ -49,8 +49,24 @@ nav a{
 .header{
     background-color:#f3fbff ;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    background-image: url('../images/bgr.png');
+    background-size:800px 700px ;
 }
+
+.banner-cont{
+    position: relative;
+}
+
+
+.jhamela{
+    position:absolute;
+    top: 2%;
+    left: 1%;
+
+}
+
+
 
 .banner{
     padding: 30px 30px 10px 150px;
